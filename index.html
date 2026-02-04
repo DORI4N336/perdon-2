@@ -86,7 +86,7 @@
     <div class="contenedor">
         <h1 id="titulo">¿Me perdonas? 🥺</h1>
         
-        <img src="inicio.gif" alt="GIF" class="foto" id="imagen">
+        <img src="https://i.pinimg.com/originals/5d/ed/89/5ded89cc940f476bd1c883dac5445aab.gif" alt="GIF" class="foto" id="imagen">
         
         <p id="mensaje">Sé que me equivoqué... ¿podemos arreglarlo?</p>
         
@@ -111,7 +111,7 @@
         const accionNo = () => {
             if (fase === 1) {
                 // FASE 1: Primer click -> Cambia imagen y texto
-                imagen.src = "duda.gif"; // Asegúrate de tener este archivo
+                imagen.src = "https://i.pinimg.com/originals/17/62/0a/17620a76ae319084b457177d73dcc5ab.gif"; // Asegúrate de tener este archivo
                 mensaje.innerText = "¿Estás segura?";
                 noBtn.innerText = "No"; // Mantiene el texto
                 fase = 2; // Pasamos a la siguiente fase
@@ -151,7 +151,7 @@
         // Lógica del botón SÍ
         siBtn.addEventListener('click', function () {
             // Cambiamos a modo feliz
-            imagen.src = "feliz.gif"; // Asegúrate de tener este archivo
+            imagen.src = "https://media.tenor.com/yAKiENumEAcAAAAM/cat-dance-dancing-cat.gif"; // Asegúrate de tener este archivo
             titulo.innerText = "¡Siiiii!";
             mensaje.innerText = "Te amo mucho, perdón ♥";
             
